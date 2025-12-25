@@ -1,16 +1,49 @@
-# React + Vite
+<h1 align="center">🎨 PIC CHECKER – Frontend</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  <b>⚛️ React • ⚡ Vite • 🎨 Modern UI</b>
+</p>
 
-Currently, two official plugins are available:
+<p align="center">
+  🚀 Frontend interface for uploading media and displaying AI analysis results
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 📌 Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**PIC CHECKER Frontend** is a **modern React application built with Vite** that provides a clean and responsive user interface to interact with the **FastAPI backend**.
 
-## Expanding the ESLint configuration
+Users can:
+- 📂 Upload images or media files
+- 🧠 Send files to the AI-powered backend
+- 📊 View analysis results instantly
+- ⚡ Enjoy fast load times with Vite
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=react,vite,js,html,css,tailwind,git,vscode" />
+</p>
+
+- **Framework**: React
+- **Build Tool**: Vite
+- **Styling**: Tailwind CSS
+- **Language**: JavaScript
+- **Package Manager**: npm
+
+---
+
+## 📂 Project Structure
+
+```text
+frontend/
+│── src/               # React components & logic
+│── public/            # Static assets
+│── index.html         # HTML entry point
+│── vite.config.js     # Vite configuration
+│── package.json       # Project scripts & dependencies
+│── package-lock.json  # Dependency lock file
+│── dist/              # Production build (ignored)
