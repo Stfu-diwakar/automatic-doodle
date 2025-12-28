@@ -11,7 +11,7 @@ app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "https://automatic-doodle-need.vercel.app/"
+        "https://dwkr-h80ektnpt-stfu-diwakars-projects.vercel.app"
     ],
     allow_credentials=True,
     allow_methods=["*"],
@@ -45,4 +45,5 @@ async def analyze(file: UploadFile = File(...)):
         return result
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
+
 
