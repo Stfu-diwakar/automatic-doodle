@@ -13,10 +13,11 @@ const AnalysisDashboard = ({ file, onReset }) => {
             formData.append('file', file);
 
             try {
-                const response = await fetch('http://localhost:8000/analyze', {
+                const response = await fetch('https://automatic-doodle-nded.onrender.com/analyze', {
                     method: 'POST',
                     body: formData,
                 });
+
 
                 if (!response.ok) throw new Error('Analysis failed');
 
@@ -132,3 +133,4 @@ const AnalysisDashboard = ({ file, onReset }) => {
 };
 
 export default AnalysisDashboard;
+
