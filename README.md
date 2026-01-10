@@ -19,6 +19,11 @@ The project is divided into two parts:
 - ⚙️ **Backend** – A FastAPI service that processes uploaded media using AI logic
 
 ---
+## 🚀 Live Demo
+
+👉 **Try the app here:**  
+https://automatic-doodle-need.vercel.app/
+
 
 ## 🧩 Project Structure
 
